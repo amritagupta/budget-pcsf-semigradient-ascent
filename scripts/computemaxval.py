@@ -18,14 +18,14 @@ for num_edges in [500, 1000, 1500]:
 			inststring = 'G_n_edges_%d_instance_%d'%(num_edges, instance)
 			
 			nsamples = 20
-			maxvals_lfd = '../output/synthetic_graphs/planar/edge_max_values_%d_logs/'%nsamples
+			maxvals_lfd = '../data/synthetic_graphs/planar/edge_max_values_%d_logs/'%nsamples
 			logfilename = maxvals_lfd+inststring+'.log'
 			sys.stdout = open(logfilename, 'w')
 			mvtimer = time.time()
 			max_values = find_max_values(E,V,demand,nruns=nsamples,method='connected')
 			time_taken = time.time() - mvtimer
         		print('%d, %d, %0.4f'%(num_edges, instance, time_taken))
-			pickle.dump(max_values, open("../output/synthetic_graphs/planar/edge_max_values_%d/G_n_edges_%d_instance_%d_edge_max_values_data.p"%(nsamples, len(E), instance), "wb" ))
+			pickle.dump(max_values, open("../data/synthetic_graphs/planar/edge_max_values_%d/G_n_edges_%d_instance_%d_edge_max_values_data.p"%(nsamples, len(E), instance), "wb" ))
 			
 
 

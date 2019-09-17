@@ -76,9 +76,7 @@ Results
 ### Random Planar Graphs
 **Relative Solution Quality**
 
-<img src='figures/obj-wrt-greedy-500-planar.png' width="200">
-<img src='figures/obj-wrt-greedy-1000-planar.png' width="200">
-<img src='figures/obj-wrt-greedy-1500-planar.png' width="200">
+<img src='figures/obj-wrt-greedy-500-planar.png' width="200"><img src='figures/obj-wrt-greedy-1000-planar.png' width="200"><img src='figures/obj-wrt-greedy-1500-planar.png' width="200">
 
 **Runtime Performance**
 

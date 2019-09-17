@@ -69,3 +69,33 @@ All code was written in Python 2.7.6.
 
     It also contains methods called by `scripts/computemaxval.py` and helper functions.
 4. `scripts/run_experiments.py` shows how we set up all experiments in our ICTAI 2019 paper.
+
+-------
+Results
+-------
+### Random Planar Graphs
+**Relative Solution Quality**
+
+<img src='figures/obj-wrt-greedy-500-planar.png' width="220">
+<img src='figures/obj-wrt-greedy-1000-planar.png' width="220">
+<img src='figures/obj-wrt-greedy-1500-planar.png' width="220">
+
+**Runtime Performance**
+
+<img src='figures/runtimes-500-planar.png' width="220">
+<img src='figures/runtimes-1000-planar.png' width="220">
+<img src='figures/runtimes-1500-planar.png' width="220">
+
+### Random Erdos-Renyi Graphs
+
+**Relative Solution Quality**
+
+<img src='figures/obj-wrt-greedy-500.png' width="220">
+<img src='figures/obj-wrt-greedy-1000.png' width="220">
+<img src='figures/obj-wrt-greedy-1500.png' width="220">
+
+**Runtime Performance**
+
+<img src='figures/runtimes-500.png' width="220">
+<img src='figures/runtimes-1000.png' width="220">
+<img src='figures/runtimes-1500.png' width="220">

@@ -76,24 +76,18 @@ Results
 ### Random Planar Graphs
 **Relative Solution Quality**
 
-<img src='figures/obj-wrt-greedy-500-planar.png' width="200"><img src='figures/obj-wrt-greedy-1000-planar.png' width="200"><img src='figures/obj-wrt-greedy-1500-planar.png' width="200">
+<img src='figures/obj-wrt-greedy-500-planar.png' width="220"><img src='figures/obj-wrt-greedy-1000-planar.png' width="220"><img src='figures/obj-wrt-greedy-1500-planar.png' width="220">
 
 **Runtime Performance**
 
-<img src='figures/runtimes-500-planar.png' width="200">
-<img src='figures/runtimes-1000-planar.png' width="200">
-<img src='figures/runtimes-1500-planar.png' width="200">
+<img src='figures/runtimes-500-planar.png' width="220"><img src='figures/runtimes-1000-planar.png' width="220"><img src='figures/runtimes-1500-planar.png' width="220">
 
 ### Random Erdos-Renyi Graphs
 
 **Relative Solution Quality**
 
-<img src='figures/obj-wrt-greedy-500.png' width="200">
-<img src='figures/obj-wrt-greedy-1000.png' width="200">
-<img src='figures/obj-wrt-greedy-1500.png' width="200">
+<img src='figures/obj-wrt-greedy-500.png' width="220"><img src='figures/obj-wrt-greedy-1000.png' width="220"><img src='figures/obj-wrt-greedy-1500.png' width="220">
 
 **Runtime Performance**
 
-<img src='figures/runtimes-500.png' width="200">
-<img src='figures/runtimes-1000.png' width="200">
-<img src='figures/runtimes-1500.png' width="200">
+<img src='figures/runtimes-500.png' width="220"><img src='figures/runtimes-1000.png' width="220"><img src='figures/runtimes-1500.png' width="220">
